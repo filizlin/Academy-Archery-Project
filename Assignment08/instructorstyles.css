@@ -20,7 +20,7 @@ h1 {
     display: block;
     text-align: right;
     align-content: center;
-    font-size: 17px;
+    font-size: 20px;
     list-style-type: none;
     overflow: hidden;
     color: white;
@@ -40,9 +40,10 @@ h1 {
 }
 
 .menunavigationitem{
-  padding: 5px;
-  font-size: 17px;
+  padding: 15px;
+  font-size: 24px;
   list-style-type: none;
+  font-weight: bold;
 }
 
 .menunavigationitem a {
@@ -72,6 +73,11 @@ h2 {
 .nondiscriminatory {
   font-size: 17px;
   color: #03a3df;
+  background-color: #303030;
+}
+
+#skip-content {
+  color: white;
 }
 
 
@@ -84,7 +90,7 @@ footer {
   background-size: cover;
   position: static;
   color: white;
-  font-size: 17px;
+  font-size: 20px;
   padding: 20px 0px;
 
 }
