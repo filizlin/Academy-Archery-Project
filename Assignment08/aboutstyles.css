@@ -1,0 +1,180 @@
+* {
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* header setting */
+header {
+  background: #03a3df;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 40 px
+
+}
+
+.headernavigation {
+    float: right;
+    display: block;
+    text-align: right;
+    align-content: center;
+    font-size: 17px;
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+  }
+
+.headernavigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+/* left menu setting */
+.menunavigation {
+  background-color: #ecb722;
+  padding: 20px 10px;
+
+}
+
+.menunavigationitem{
+  padding: 5px;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+.menunavigationitem a {
+  text-decoration: none;
+  color: #444444
+}
+
+.menunavigationitem a:hover {
+  color: #1b447f;
+  text-decoration: underline;
+}
+
+
+/* main text setting */
+h2 {
+  font-size: 34px;
+  color: #1b447f;
+}
+
+main section ul {
+  color: #444444
+  padding: 20px 5px;
+  font-size: 17px;
+}
+
+main section ul li {
+  padding: 10px 5px;
+}
+
+.nondiscriminatory {
+  font-size: 17px;
+  color: #03a3df;
+}
+
+
+/* footer setting */
+footer {
+  background-image: url(../Assignment07/images/footerImage.jpg);
+  height: 350px;
+  width: auto;
+  background-position: bottom;
+  background-size: cover;
+  position: static;
+  color: white;
+  font-size: 17px;
+  padding: 20px 0px;
+
+}
+
+footer article p span {
+  padding: 10px 0px;
+}
+
+.footernavigation {
+    font-size: 17px;
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+  }
+
+.footernavigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+/* grid layout setting */
+.col {
+   float: left;
+   padding: 5px;
+}
+
+.justify-content-end {
+    float: right;
+}
+
+.align-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.span_1_of_12 {
+  width: 8.33%;
+}
+
+.span_2_of_12 {
+  width: 16.66%;
+}
+
+.span_3_of_12 {
+  width: 25%;
+}
+
+.span_4_of_12 {
+  width: 33.33%;
+}
+
+.span_5_of_12 {
+  width: 41.66%;
+}
+
+.span_6_of_12 {
+  width: 50%;
+}
+
+.span_7_of_12 {
+  width: 58.33%;
+}
+
+.span_8_of_12 {
+  width: 66.66%;
+}
+
+.span_9_of_12 {
+  width: 75%;
+}
+
+.span_10_of_12 {
+  width: 83.33%;
+}
+
+.span_11_of_12 {
+  width: 91.66%;
+}
+
+.span_12_of_12 {
+  width: 100%;
+}
